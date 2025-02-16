@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h2 {
+    color: cyan;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background: black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero {
+    padding: 100px 20px;
+}
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid cyan;
+}
+.btn {
+    background: cyan;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.service-container, .skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.service-box {
+    background: black;
+    padding: 20px;
+    border: 2px solid cyan;
+    width: 250px;
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.project {
+    background: black;
+    padding: 20px;
+    border: 2px solid cyan;
+    width: 250px;
+}
+.skills-container img {
+    width: 150px;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timeline-item {
+    border-left: 2px solid cyan;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+footer {
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+}
